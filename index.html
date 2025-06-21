@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to our website</h1>
+    </header>
+    <main>
+        <section id="AboutUs">
+            <h4>About Us:</h4>
+            <p>Welcome to our innovative platform where we strive to bring you the best solutions for your everyday needs. We are dedicated to providing high-quality services and an exceptional user experience. Our team is composed of passionate individuals committed to excellence and driven by a desire to make a positive impact. We believe in continuous improvement and listening to our community to evolve our offerings. Our goal is to empower you with tools and resources that simplify your life and help you achieve your objectives efficiently.</p>
+        </section>
+        <br><hr>
+        <section id="Image">
+            
+            <img src="digital combo.png" alt="digital work combo img" width="device-width" height="400">
+        </section>
+        <br><hr>
+        <section id="services">
+            <h4>Our Services</h4>
+            <ul>
+                <li><a href="https://en.wikipedia.org/wiki/Web_design" target="_blank">Web Design </a>& Development</li>
+                <li><a href="https://en.wikipedia.org/wiki/Mobile_app" target="_blank">Mobile App</a> Creation</li>
+                <li><a href="https://en.wikipedia.org/wiki/Digital_marketing" target="_blank">Digital Marketing</a> Solutions</li>
+                <li><a href="https://en.wikipedia.org/wiki/Content_creation" target="_blank">Content Creation</a> & Strategy</li>
+                <li>Cloud Solutions & Consulting</li>
+                <li>Technical Support & Maintenance</li>
+            </ul>
+        </section>
+        <br><hr>
+        <section id="video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/BadB1z-V_qU?si=SwBKQyeibDYbdveZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        </section>
+        <br><hr>
+        <section id="price-list">
+            <label for="price"><strong>Price List:</strong></label>
+            <table id="price" border="">
+                <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Basic Website Package</td>
+                    <td>₹499</td>
+                </tr>
+                <tr>
+                    <td>E-commerce Setup</td>
+                    <td>₹999</td>
+                </tr>
+                <tr>
+                    <td>Monthly SEO Optimization</td>
+                    <td>₹150/month</td>
+                </tr>
+                <tr>
+                    <td>Custom Mobile App (Starts From)</td>
+                    <td>₹2500</td>
+                </tr>
+                <tr>
+                    <td>Consulting Hour</td>
+                    <td>₹75/hour</td>
+                </tr>
+            </tbody>
+            </table>
+            <hr>
+            <select name="services" id="">
+                <option value="">Please Select services</option>
+                <option value="Web Design & Development">Web Design & Development</option>
+                <option value="Mobile App Creation">Mobile App Creation</option>
+                <option value="Digital Marketing Solutions">Digital Marketing Solutions</option>
+                <option value="Content Creation & Strategy">Content Creation & Strategy</option>
+                <option value="Cloud Solutions & Consulting">Cloud Solutions & Consulting</option>
+                <option value="Technical Support & Maintenance">Technical Support & Maintenance</option>
+            </select>
+            <p><b>For combo Discount.: </b></p>
+            <input type="checkbox" name="combo" id="Web Design & Development" value="Web Design & Development">
+            <label for="Web Design & Development">Web Design & Development</label>
+            <br>
+            <input type="checkbox" name="combo" id="Mobile App Creation" value="Mobile App Creation">
+            <label for="Mobile App Creation">Mobile App Creation</label>
+            <br>
+            <input type="checkbox" name="combo" id="Digital Marketing Solutions" value="Digital Marketing Solutions">
+            <label for="Digital Marketing Solutions">Digital Marketing Solutions</label>
+            <br>
+            <input type="checkbox" name="combo" id="Content Creation & Strategy" value="Content Creation & Strategy">
+            <label for="Content Creation & Strategy">Content Creation & Strategy</label>
+            <br>
+            <input type="checkbox" name="combo" id="Cloud Solutions & Consulting" value="Cloud Solutions & Consulting">
+            <label for="Cloud Solutions & Consulting">Cloud Solutions & Consulting</label>
+            <br>
+            <input type="checkbox" name="combo" id="Technical Support & Maintenance" value="Technical Support & Maintenance">
+            <label for="Technical Support & Maintenance">Technical Support & Maintenance</label>
+            <br>
+        </section>
+        <br><hr>
+        <section id="form">
+            <form action="https://www.digital-web-services.com/blog" target="_blank">
+                <label for="lname">Enter First Name</label>
+                <input type="text" id="fname" required minlength="2">
+                <label for="lname">Enter Last Name</label>
+                <input type="text" id="lname" required minlength="2">
+                <br>
+                <label for="phoneNumber">Enter Number</label>
+                <input type="tel" id="phoneNumber" required>
+                <label for="mail">Enter Email</label>
+                <input type="email">
+                <br>
+                <button type="submit" >Submit</button>
+            </form>
+        </section>
+        <br><hr>
+    </main>
+
+    <footer>
+        <p>Contact us at: info@example.com |
+             Phone: +91 9876543210 |
+             Address: 123 Web Dev Street, Pimpri-Chinchwad, Maharashtra, India</p>
+    </footer>
+</body>
+</html>
